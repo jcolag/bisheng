@@ -1,0 +1,65 @@
+{
+  "_from": "cordova-curl",
+  "_id": "cordova-curl@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-Q7qaFUkJYE1Kr8rnknsyDKG3mbQ=",
+  "_location": "/cordova-curl",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-curl",
+    "name": "cordova-curl",
+    "escapedName": "cordova-curl",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-curl/-/cordova-curl-0.2.0.tgz",
+  "_shasum": "43ba9a154909604d4aafcae7927b320ca1b799b4",
+  "_spec": "cordova-curl",
+  "_where": "/home/john/Documents/code/bisheng",
+  "author": {
+    "name": "Moemen Mostafa"
+  },
+  "bugs": {
+    "url": "https://github.com/MoemenMostafa/cordova-curl/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "ru.apps-m.curl",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Wrapper for native Curl",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=4.0.0"
+    }
+  ],
+  "homepage": "https://github.com/MoemenMostafa/cordova-curl",
+  "keywords": [
+    "Curl",
+    "Raw request",
+    "POST",
+    "GET",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-curl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoemenMostafa/cordova-curl.git"
+  },
+  "version": "0.2.0"
+}

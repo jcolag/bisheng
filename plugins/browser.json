@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.colagioia.bisheng"
+    },
+    "ru.apps-m.curl": {
+      "PACKAGE_NAME": "com.colagioia.bisheng"
     }
   },
   "dependent_plugins": {}
