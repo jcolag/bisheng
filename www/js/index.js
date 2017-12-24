@@ -28,16 +28,6 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-        if (false) {
-            curl.query(
-                ['www.gutenberg.org/cache/epub/feeds/rdf-files.tar.zip', null, null, false, 'cookie'],
-                function(answer) {
-                    alert(answer[0], answer[1]);
-                },
-                function() {
-                    alert('fail');
-                });
-        }
     },
 
     // Update DOM on a Received Event
