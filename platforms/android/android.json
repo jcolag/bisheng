@@ -13,7 +13,6 @@
               "count": 1
             },
             {
-              "xml": "<feature name=\"Curl\"><param name=\"android-package\" value=\"ru.appsm.curl.CordovaWrapper\" /><param name=\"onload\" value=\"true\" /></feature>",
               "count": 1
             }
           ]

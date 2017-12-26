@@ -1,11 +1,7 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
   {
-    "id": "ru.apps-m.curl.curl",
-    "file": "plugins/ru.apps-m.curl/www/curl.js",
-    "pluginId": "ru.apps-m.curl",
     "clobbers": [
-      "curl"
     ]
   }
 ];

@@ -4,8 +4,6 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="Curl">
-        <param name="android-package" value="ru.appsm.curl.CordovaWrapper" />
         <param name="onload" value="true" />
     </feature>
     <name>Bì Shēng Reader</name>
