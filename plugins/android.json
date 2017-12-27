@@ -10,9 +10,13 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.colagioia.bisheng"
     },
-    "ru.apps-m.curl": {
+    "cordova-plugin-file-transfer2": {
       "PACKAGE_NAME": "com.colagioia.bisheng"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.colagioia.bisheng"
+    }
+  }
 }
