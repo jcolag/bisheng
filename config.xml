@@ -25,6 +25,5 @@
     <engine name="android" spec="^6.3.0" />
     <engine name="browser" spec="^5.0.1" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
-    <plugin name="ru.apps-m.curl" spec="~0.2.0" />
     <plugin name="cordova-plugin-file-transfer2" spec="^1.0.1" />
 </widget>
