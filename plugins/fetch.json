@@ -7,14 +7,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "ru.apps-m.curl": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-curl"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-file-transfer2": {
     "source": {
       "type": "registry",
