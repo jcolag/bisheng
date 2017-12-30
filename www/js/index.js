@@ -27,7 +27,29 @@ var app = {
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
+        var fileTransfer = new FileTransfer();
+        var uri = encodeURI("http://www.gutenberg.org/cache/epub/feeds/rdf-files.tar.zip");
+        var dest = "file://home/john/Downloads/";
+        
         this.receivedEvent('deviceready');
+        fileTransfer.download(
+          uri,
+          dest,
+          function(entry) {
+            console.log("Download complete! " + entry.toURL());
+          },
+          function(error) {
+            console.log("Download error source: " + error.source);
+            console.log("Download error target: " + error.target);
+            console.log("Download error code: " + error.code);
+          },
+          true,
+          {
+            headers: {
+              "Access-Control-Allow-Origin": "gutenberg.org",
+            },
+          }
+        );
     },
 
     // Update DOM on a Received Event
